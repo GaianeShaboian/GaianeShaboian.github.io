@@ -27,6 +27,10 @@ html, body {
   height: 100%;
   display: flex;
   flex-direction: column;
+  .projects{list-style:none; padding-left:0; margin:0}
+.projects li{margin:8px 0}
+.projects a{text-decoration:none}
+.projects a:hover{text-decoration:underline}
 }
 
 main {
